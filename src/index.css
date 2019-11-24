@@ -5,9 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.matrix {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+pre {
+  width: fit-content;
+  overflow: hidden;
+  font-weight: 700;
+  text-decoration: none;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  transform: translatey(-100%);
+  animation: matrix linear 20s infinite;
+}
+
+@keyframes matrix {
+  100% {
+    transform: translatey(100%);
+  }
 }
