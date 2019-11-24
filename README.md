@@ -1,6 +1,6 @@
 ## MATRIX
 
-This small project is a background matrix build with react, js, and css
+This is a small background matrix, build with reactJS, HTML and CSS
 
 ### `yarn`
 Install dependencies 
